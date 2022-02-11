@@ -5,38 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка проекта -->
-    <header>
+    <header class="header">
       <nav>
-        <a href="">WebStudio</a>
-        <ul>
+        <a class="logo" href=""><span class="logo-primary">Web</span>Studio</a>
+        <ul class="site-nav list">
           <li>
-            <a href="./index.html">Студия</a>
+            <a href="./index.html" class="link">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a href="./portfolio.html" class="link">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a href="" class="link">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts-header list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <!-- Тело проекта -->
-    <main>
+    <main class="gallery">
       <!--Навигация -->
-      <ul>
+      <ul class="gallery-navigation list">
         <li><button type="button">Все</button></li>
         <li><button type="button">Веб-сайты</button></li>
         <li><button type="button">Приложения</button></li>
@@ -44,124 +50,140 @@
         <li><button type="button">Маркетинг</button></li>
       </ul>
       <!-- Портфолио -->
-      <section>
-        <ul>
-          <li>
-            <a href="">
-              <img src="/images/st2/portfolio/img1.jpg" width="370" height="294" alt="Технокряк" />
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
+      <section class="portfoli">
+        <ul class="portfoli-list list">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
+              <img
+                class="portfoli-img"
+                src="/images/st2/portfolio/img1.jpg"
+                width="370"
+                height="294"
+                alt="Технокряк"
+              />
+              <h2 class="portfoli-title">Технокряк</h2>
+              <p class="portfoli-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img2.jpg"
                 width="370"
                 height="294"
                 alt="Постер New Orlean vs Golden Star"
               />
-              <h3>Постер New Orlean vs Golden Star</h3>
-              <p>Дизайн</p>
+              <h2 class="portfoli-title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfoli-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img3.jpg"
                 width="370"
                 height="294"
                 alt="Ресторан Seafood"
               />
-              <h3>Ресторан Seafood</h3>
-              <p>Приложение</p>
+              <h2 class="portfoli-title">Ресторан Seafood</h2>
+              <p class="portfoli-text">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img4.jpg"
                 width="370"
                 height="294"
                 alt="Проект Prime"
               />
-              <h3>Проект Prime</h3>
-              <p>Маркетинг</p>
+              <h2 class="portfoli-title">Проект Prime</h2>
+              <p class="portfoli-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img5.jpg"
                 width="370"
                 height="294"
                 alt="Проект Boxes"
               />
-              <h3>Проект Boxes</h3>
-              <p>Приложение</p>
+              <h2 class="portfoli-title">Проект Boxes</h2>
+              <p class="portfoli-text">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img6.jpg"
                 width="370"
                 height="294"
                 alt="Inspiration has no Borders"
               />
-              <h3>Inspiration has no Borders</h3>
-              <p>Веб-сайт</p>
+              <h2 class="portfoli-title">Inspiration has no Borders</h2>
+              <p class="portfoli-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img7.jpg"
                 width="370"
                 height="294"
                 alt="Издание Limited Edition"
               />
-              <h3>Издание Limited Edition</h3>
-              <p>Дизайн</p>
+              <h2 class="portfoli-title">Издание Limited Edition</h2>
+              <p class="portfoli-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img8.jpg"
                 width="370"
                 height="294"
                 alt="Проект LAB"
               />
-              <h3>Проект LAB</h3>
-              <p>Маркетинг</p>
+              <h2 class="portfoli-title">Проект LAB</h2>
+              <p class="portfoli-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="portfoli-items">
+            <a class="portfoli-link" href="">
               <img
+                class="portfoli-img"
                 src="./images/st2/portfolio/img9.jpg"
                 width="370"
                 height="294"
                 alt="Growing Business"
               />
-              <h3>Growing Business</h3>
-              <p>Приложение</p>
+              <h2 class="portfoli-title">Growing Business</h2>
+              <p class="portfoli-text">Приложение</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
     <!-- Подвал проекта -->
-    <footer>
-      <a href="">WebStudio</a>
-      <address>
-        <ul>
+    <footer class="footer">
+      <a class="logo-secondary" href=""><span class="logo-primary">Web</span>Studio</a>
+      <address class="contacts-footer">
+        <ul class="list">
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+            <a class="address-footer" href="" target="_blank" rel="noopener noreferrer"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
           </li>
-          <li><a href="mailtoinfo@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li><a class="link" href="mailtoinfo@example.com">info@example.com</a></li>
+          <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
