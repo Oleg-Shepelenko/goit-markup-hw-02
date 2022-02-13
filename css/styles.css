@@ -8,8 +8,10 @@ font-family: 'Roboto', sans-serif; */
   --visible-text-color: #000000;
   --overlay-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --accent-active-color: #188ce8;
 
   --first-bg-color: #2f303a;
+  --second-bg-color: #f5f4fa;
 }
 
 body {
@@ -93,6 +95,11 @@ body {
   background-color: var(--accent-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--accent-active-color);
+}
+
 .gallery-button {
   font-weight: 500;
   font-size: 16px;
@@ -100,6 +107,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  background-color: var(--second-bg-color);
 }
 .gallery-button:focus,
 .gallery-button:hover {
@@ -128,6 +136,7 @@ body {
 
 .feature .feature-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -152,7 +161,7 @@ body {
 /* team */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-bg-color);
 }
 
 .team-title {
@@ -187,6 +196,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--hidden-text-color);
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -195,6 +205,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--overlay-text-color);
+  font-style: normal;
   text-decoration: none;
 }
 .contacts-footer .link:hover,
@@ -213,7 +224,7 @@ body {
 }
 
 .portfoli-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
